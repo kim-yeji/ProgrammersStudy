@@ -1,4 +1,7 @@
 package com.company.Level1;
+
+import java.util.Arrays;
+
 //예산 191001 월
 //**********문제 설명**********
 //S사에서는 각 부서에 필요한 물품을 지원해 주기 위해 부서별로 물품을 구매하는데 필요한 금액을 조사했습니다.
@@ -16,5 +19,14 @@ package com.company.Level1;
 //d의 각 원소는 부서별로 신청한 금액을 나타내며, 부서별 신청 금액은 1 이상 100,000 이하의 자연수입니다.
 //budget은 예산을 나타내며, 1 이상 10,000,000 이하의 자연수입니다.
 public class Budget {
-
+    public int solution(int[] d, int budget) {
+        int answer = 0;
+        Arrays.sort(d);
+        for(int i=0;i<d.length;i++){
+            budget-=d[i];
+            if(budget<0) break;
+            answer++;
+        }
+        return answer;
+    }
 }
