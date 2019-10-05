@@ -1,9 +1,12 @@
 package com.company;
 
-import java.util.*;
-
 class Main {
 
+    public int solution(String skill, String[] skill_trees) {
+        int answer = skill_trees.length;
+
+        return answer;
+    }
 
     public static void main(String[] args) {
         int[][] arr1 = {{1, 2}, {2, 3}};
@@ -13,12 +16,12 @@ class Main {
         int[] array2 = {6,9,5,7,4};
         int n = 2;
         int m = 10;
-        String s = "()(((()())(())()))(())";
+        String s = "CBD";
 
-        String[] name = {"jane", "kim", "dragonfly", "ant", "dragonfly"};
+        String[] name = {"BACDE", "CBADF", "AECB", "BDA"};
 
 
         Main main = new Main();
-        main.solution(array1,n);
+        main.solution(s,name);
     }
 }
