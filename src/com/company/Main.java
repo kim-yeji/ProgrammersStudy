@@ -1,3 +1,4 @@
+
 package com.company;
 
 import java.util.Arrays;
@@ -6,7 +7,6 @@ import java.util.PriorityQueue;
 
 class Main {
 
-   
 
     public static void main(String[] args) throws Exception {
         int[][] arr1 = {{1, 1, 0}, {1, 1, 0}, {0, 0, 1}};
@@ -15,7 +15,7 @@ class Main {
         int[] array1 = {20,5,10};
         int[] array2 = {4,10,15};
 
-        int n =3;
+        int n =15;
         int m = 4;
 
         String[] strArr={"hot", "dot", "dog", "lot", "log", "cog"};
