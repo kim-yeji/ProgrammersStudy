@@ -7,11 +7,12 @@ import java.util.Arrays;
 class Main {
 
 
+
     public static void main(String[] args) throws Exception {
         int[][] arr1 = {{1,2,3,5},{5,6,7,8},{4,3,2,1}};
         int[][] arr2 = {{1}};
 
-        int[] array1 = {20,5,10};
+        int[] array1 = {2,6,8,14};
         int[] array2 = {4,10,15};
 
         int n =15;
@@ -25,6 +26,6 @@ class Main {
 
 
         Main main = new Main();
-        main.solution(arr1);
+        main.solution(array1);
     }
 }
