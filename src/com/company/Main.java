@@ -1,10 +1,7 @@
 package com.company;
 
-import java.util.ArrayList;
-import java.util.Stack;
 
 class Main {
-
 
 
     public static void main(String[] args) throws Exception {
@@ -18,13 +15,13 @@ class Main {
         int m = 4;
 
         String[] strArr={"hot", "dot", "dog", "lot", "log", "cog"};
-        String s = "baabaa";
+        String s = "3people unFollowed me";
         String target = "cog";
 
         String[][] name = {{"yellow_hat", "headgear"}, {"blue_sunglasses", "eyewear"}, {"green_turban", "headgear"}};
 
 
         Main main = new Main();
-        main.solution(array1);
+        main.solution(s);
     }
 }
