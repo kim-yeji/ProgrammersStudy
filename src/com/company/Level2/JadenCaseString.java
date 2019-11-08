@@ -26,7 +26,7 @@ public class JadenCaseString {
 
     /* 블로그에서 공부한 코드
 
-    
+
        //마지막에" "공백이 있는 경우에 그 공백도 포함해야함
     public String solution(String s) {
         String answer = "";
