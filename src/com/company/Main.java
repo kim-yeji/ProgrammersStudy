@@ -9,7 +9,7 @@ class Main {
         int[][] arr1 = {{1,2,3,5},{5,6,7,8},{4,3,2,1}};
         int[][] arr2 = {{1}};
 
-        int[] array1 = {1,1,9,1,1,1};
+        int[] array1 = {70, 50, 80, 50};
         int[] array2 = {4,10,15};
 
         int n =15;
@@ -23,6 +23,6 @@ class Main {
 
 
         Main main = new Main();
-        main.solution(array1,0);
+        main.solution(array1,100);
     }
 }
