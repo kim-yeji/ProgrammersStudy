@@ -5,6 +5,7 @@ import java.util.Comparator;
 
 class Main {
 
+
     public static void main(String[] args) throws Exception {
         int[][] arr1 = {{1,2,3,5},{5,6,7,8},{4,3,2,1}};
         int[][] arr2 = {{1}};
@@ -15,7 +16,7 @@ class Main {
         int n =15;
         int m = 4;
 
-        String[] strArr={"hot", "dot", "dog", "lot", "log", "cog"};
+        String[] strArr={"97674223", "119", "1195524421"};
         String s = "3people unFollowed me";
         String target = "cog";
 
@@ -23,6 +24,6 @@ class Main {
 
 
         Main main = new Main();
-        main.solution(array1,100);
+        main.solution(strArr);
     }
 }
