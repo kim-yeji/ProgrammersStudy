@@ -30,7 +30,7 @@ public class FibonacciNumbers {
 
         for(int i=3; i<=n;i++){
             answer=num1+num2;
-            answer%=1234567;
+            answer%=1234567;// n번째 피보나치 수를 1234567으로 나눈 나머지를 리턴
             num1=num2;
             num2=answer;
         }

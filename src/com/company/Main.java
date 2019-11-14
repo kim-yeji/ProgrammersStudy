@@ -4,7 +4,20 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 class Main {
+    public int solution(int n) {
+        int answer = 0;
+        if (n<=1) return 1;
 
+        int num1=1;
+        int num2=1;
+        for (int i=3;i<=n;i++){
+            answer=num1+num2;
+            answer%=1234567;
+            num1=num2;
+            num2=answer;
+        }
+        return answer;
+    }
 
     public static void main(String[] args) throws Exception {
         int[][] arr1 = {{1,2,3,5},{5,6,7,8},{4,3,2,1}};
