@@ -1,17 +1,18 @@
 package com.company;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 
 class Main {
 
-    
+
     public static void main(String[] args) throws Exception {
         int[][] arr1 = {{1,2,3,5},{5,6,7,8},{4,3,2,1}};
         int[][] arr2 = {{1}};
 
-        int[] array1 = {70, 50, 80, 50};
-        int[] array2 = {2,6,8,14};
+        int[] array1 = {2,3};
+        int[] array2 = {1,2,3};
 
         int n =15;
         int m = 4;
@@ -24,6 +25,6 @@ class Main {
 
 
         Main main = new Main();
-        main.solution(9,3);
+        main.solution(array1,array2);
     }
 }
