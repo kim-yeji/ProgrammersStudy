@@ -5,7 +5,9 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 class Main {
+    public int solution(int n) {
 
+    }
 
     public static void main(String[] args) throws Exception {
         int[][] arr1 = {{1,2,3,5},{5,6,7,8},{4,3,2,1}};
