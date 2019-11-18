@@ -14,7 +14,8 @@ package com.company.Level2;
 //n은 1,000,000 이하의 자연수 입니다.
 public class NextBigNumber {
     public int solution(int n) {
-
+        //마지막 반복문을 빠져나오기 전에 반복문의 증감부분을 실행하고 나오므로 내가 구하려는 값보다 1이 더해져 있는 상태이다.
+        //그러므로 1을 빼서 반환한다.
         String nBinary = Integer.toBinaryString(n);
         int nCount=0;
         for(int i=0;i<nBinary.length();i++){
